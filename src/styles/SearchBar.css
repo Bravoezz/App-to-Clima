@@ -1,0 +1,47 @@
+.contain{
+    background-color: transparent;
+    border-radius: 20px;
+    color: rgb(32, 35, 41);
+    border: solid 3px rgba(77, 73, 73, 0.5);
+}
+.input{
+    
+    background: transparent;
+    border: none;
+    border-right: solid 5px rgba(19, 15, 15, 0.5) ;
+    color: rgb(129, 122, 122);
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 60px;
+    width: 200px;
+    padding-left: 15px;
+    
+}
+.button{
+    border: none;
+   
+    height: 50px;
+    color: rgb(129, 122, 122);
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+
+}
+@media screen and (max-width: 767px){
+   .contain{
+    height: 50px;
+   }
+   .input{
+    height: 100%;
+   }
+   .button{
+    height: 100%;
+   }
+   
+}
+.button:active{
+    border:  none;
+    font: none;
+}

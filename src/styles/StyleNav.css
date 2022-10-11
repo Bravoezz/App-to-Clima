@@ -1,0 +1,79 @@
+.home:active, .home:visited,.home:link{
+ text-decoration: none;
+ outline: none;
+ 
+}
+.home:hover{
+  color: rgb(15, 15, 15);
+  transform: scale(1.2);
+}
+.activee{
+  font-size: 20;
+  color: black;
+}
+.content-home-about{
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home{
+  font-size: 17px;
+  color: rgb(129, 122, 122);
+  font-weight: bold;
+  width: 50%;
+}
+
+
+.imgDeadpool{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+  
+  margin-top: 10px;
+}
+
+.nav{
+    background-color: rgba(206, 201, 201, 0.0.5);
+    backdrop-filter: blur(12px) saturate(100%);
+    color: rgb(129, 122, 122);
+    z-index: 99;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 80px;
+    padding: 10px;
+    position: fixed;
+    height: 90px
+  }
+  @media screen and (max-width: 767px) {
+    .nav{
+      
+      width: 400px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .titulo{
+      font-size: 20px;
+    }
+    .div2{
+      display: flex;
+      align-items: center;
+    }
+    .div{
+      display: flex;
+      align-items: center;
+    }
+  }
